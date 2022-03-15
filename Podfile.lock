@@ -1,0 +1,62 @@
+PODS:
+  - Alamofire (5.5.0)
+  - ObjectMapper (4.2.0)
+  - "ObjectMapper+Realm (1.2)":
+    - ObjectMapper
+    - RealmSwift
+  - Realm (10.23.0):
+    - Realm/Headers (= 10.23.0)
+  - Realm/Headers (10.23.0)
+  - RealmSwift (10.23.0):
+    - Realm (= 10.23.0)
+  - SwiftyJSON (4.3.0)
+  - URLImage (2.2.5):
+    - URLImage/Common (= 2.2.5)
+    - URLImage/DownloadManager (= 2.2.5)
+    - URLImage/FileIndex (= 2.2.5)
+    - URLImage/ImageDecoder (= 2.2.5)
+    - URLImage/Log (= 2.2.5)
+    - URLImage/PlainDatabase (= 2.2.5)
+    - URLImage/RemoteContentView (= 2.2.5)
+  - URLImage/Common (2.2.5)
+  - URLImage/DownloadManager (2.2.5):
+    - URLImage/Log
+  - URLImage/FileIndex (2.2.5):
+    - URLImage/Common
+    - URLImage/Log
+    - URLImage/PlainDatabase
+  - URLImage/ImageDecoder (2.2.5)
+  - URLImage/Log (2.2.5)
+  - URLImage/PlainDatabase (2.2.5)
+  - URLImage/RemoteContentView (2.2.5)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper
+  - "ObjectMapper+Realm"
+  - RealmSwift
+  - SwiftyJSON (~> 4.0)
+  - URLImage
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - "ObjectMapper+Realm"
+    - Realm
+    - RealmSwift
+    - SwiftyJSON
+    - URLImage
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  ObjectMapper: 1eb41f610210777375fa806bf161dc39fb832b81
+  "ObjectMapper+Realm": 0f8d0ac5b0e87ba63d2d0bea76a111b4eae98b9a
+  Realm: bdac9baede54becb2883f319fc50e9e12b35235c
+  RealmSwift: e083456e083dcfd6ef9087cdde6b031ec6224783
+  SwiftyJSON: 6faa0040f8b59dead0ee07436cbf76b73c08fd08
+  URLImage: 36a66c03ba2a9ccbbf06bc83431f2cef171008e8
+
+PODFILE CHECKSUM: 5c4da568353460562dfed40f7ad085291e28d343
+
+COCOAPODS: 1.10.1
