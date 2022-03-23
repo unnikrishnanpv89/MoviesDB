@@ -35,8 +35,6 @@ class ViewController: UIViewController {
         usernameTf.layer.cornerRadius = CGFloat(radius)
         passwordTF.layer.cornerRadius = CGFloat(radius)
         signInBtn.layer.cornerRadius = CGFloat(radius)
-        usernameTf.text = "upv"
-        passwordTF.text = "RoSe!234"
     }
     
     private func showHideView(showUsername: Bool = false){
